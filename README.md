@@ -9,7 +9,7 @@ Data Cleaning/Feature Engineering
 The dataset was preprocessed to handle missing values, outliers, and categorical variables appropriately. Feature selection techniques, such as correlation analysis, was  employed to identify the most significant features affecting CO2 emission and fuel economy. 
 
 Machine Learning Model:
-The project employed supervised machine learning techniques, specifically regression algorithms, to develop the predictive model. Several machine learning algorithms were explored, including linear regression, decision trees, random forests, support vector machines and Artificial Neural networks. These algorithms were trained on the dataset to learn the relationships between the input features and the target variables (CO2 emission and fuel economy). Seperate machine learninf models were developed each for co2 emission and fuel economy.
+The project employed supervised machine learning techniques, specifically regression algorithms, to develop the predictive model. Several machine learning algorithms were explored, including linear regression, decision trees, random forests, support vector machines, ExtreeRegressor and Artificial Neural networks. These algorithms were trained on the dataset to learn the relationships between the input features and the target variables (CO2 emission and fuel economy). Seperate machine learning models were developed each for co2 emission and fuel economy.
 
 Model Evaluation:
 The performance of the developed machine learning models were evaluated using  R-squared (R2) score.
